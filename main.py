@@ -21,7 +21,7 @@ app = FastAPI(title="Grippi Campaign Analytics API")
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-
+    "https://grippi-intern.vercel.app/"
 ]
 
 app.add_middleware(
